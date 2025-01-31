@@ -117,22 +117,6 @@ For developers looking to dive deeper, we recommend exploring [README_WEIGHTS.md
 | | Architecture | - | MoE | Dense | Dense | MoE |
 | | # Activated Params | - | 21B | 72B | 405B | 37B |
 | | # Total Params | - | 236B | 72B | 405B | 671B |
-| English | Pile-test (BPB) | - | 0.606 | 0.638 | **0.542** | 0.548 |
-| | BBH (EM) | 3-shot | 78.8 | 79.8 | 82.9 | **87.5** |
-| | MMLU (Acc.) | 5-shot | 78.4 | 85.0 | 84.4 | **87.1** |
-| | MMLU-Redux (Acc.) | 5-shot | 75.6 | 83.2 | 81.3 | **86.2** |
-| | MMLU-Pro (Acc.) | 5-shot | 51.4 | 58.3 | 52.8 | **64.4** |
-| | DROP (F1) | 3-shot | 80.4 | 80.6 | 86.0 | **89.0** |
-| | ARC-Easy (Acc.) | 25-shot | 97.6 | 98.4 | 98.4 | **98.9** |
-| | ARC-Challenge (Acc.) | 25-shot | 92.2 | 94.5 | **95.3** | **95.3** |
-| | HellaSwag (Acc.) | 10-shot | 87.1 | 84.8 | **89.2** | 88.9 |
-| | PIQA (Acc.) | 0-shot | 83.9 | 82.6 | **85.9** | 84.7 |
-| | WinoGrande (Acc.) | 5-shot | **86.3** | 82.3 | 85.2 | 84.9 |
-| | RACE-Middle (Acc.) | 5-shot | 73.1 | 68.1 | **74.2** | 67.1 |
-| | RACE-High (Acc.) | 5-shot | 52.6 | 50.3 | **56.8** | 51.3 |
-| | TriviaQA (EM) | 5-shot | 80.0 | 71.9 | **82.7** | **82.9** |
-| | NaturalQuestions (EM) | 5-shot | 38.6 | 33.2 | **41.5** | 40.0 |
-| | AGIEval (Acc.) | 0-shot | 57.5 | 75.8 | 60.6 | **79.6** |
 | Code | HumanEval (Pass@1) | 0-shot | 43.3 | 53.0 | 54.9 | **65.2** |
 | | MBPP (Pass@1) | 3-shot | 65.0 | 72.6 | 68.4 | **75.4** |
 | | LiveCodeBench-Base (Pass@1) | 3-shot | 11.6 | 12.9 | 15.5 | **19.4** |
